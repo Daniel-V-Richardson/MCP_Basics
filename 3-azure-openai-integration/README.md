@@ -18,7 +18,7 @@ This example uses the **stdio transport** for communication between the client a
 - The client directly launches the server as a subprocess
 - No separate server process is needed
 
-If you want to split your client and server into separate applications (e.g., running the server on a different machine), you'll need to use the **SSE (Server-Sent Events) transport** instead. For details on setting up an SSE connection, see the [Simple Server Setup](../3-simple-server-setup) section.
+If you want to split your client and server into separate applications (e.g., running the server on a different machine), you'll need to use the **SSE (Server-Sent Events) transport** instead. For details on setting up an SSE connection, see the [Simple Server Setup](../2-simple-server-setup) section.
 
 ### Data Flow Explanation
 
