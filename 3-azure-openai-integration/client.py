@@ -21,7 +21,7 @@ class MCPOpenAIClient:
         self.exit_stack = AsyncExitStack()
         self.openai_client = AzureOpenAI(
             api_version="2024-12-01-preview",
-            azure_endpoint="https://bacsysai.openai.azure.com/",
+            azure_endpoint="your_endpoint",
             api_key=os.getenv("AZURE_OPENAI_API_KEY"),
         )
         self.deployment = deployment
