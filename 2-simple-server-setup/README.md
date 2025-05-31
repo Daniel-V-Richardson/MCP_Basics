@@ -1,4 +1,4 @@
-## Part 3: Simple Server Setup with Python SDK
+## Part 2: Simple Server Setup with Python SDK
 
 ### Building Your First MCP Server
 
